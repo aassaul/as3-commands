@@ -5,6 +5,7 @@
  * Time: 1:33
  */
 package com.trembit.messages.commands.support {
+import com.trembit.as3commands.commands.Command;
 import com.trembit.messages.commands.*;
 
 import flexunit.framework.Assert;

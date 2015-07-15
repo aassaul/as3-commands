@@ -4,10 +4,10 @@
  * Date: 14.07.2015
  * Time: 19:37
  */
-package com.trembit.messages.commands {
-import com.trembit.messages.constants.EventState;
-import com.trembit.messages.event.CommandEvent;
-import com.trembit.messages.util.Commands;
+package com.trembit.as3commands.commands {
+import com.trembit.as3commands.constants.EventState;
+import com.trembit.as3commands.event.CommandEvent;
+import com.trembit.as3commands.util.Commands;
 
 public class Command {
 

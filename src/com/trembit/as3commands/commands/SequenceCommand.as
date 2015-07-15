@@ -4,11 +4,11 @@
  * Date: 14.07.2015
  * Time: 21:11
  */
-package com.trembit.messages.commands {
-import com.trembit.messages.event.CommandEvent;
-import com.trembit.messages.event.SequenceCommandEvent;
-import com.trembit.messages.event.FinishCommandEvent;
-import com.trembit.messages.util.Commands;
+package com.trembit.as3commands.commands {
+import com.trembit.as3commands.event.CommandEvent;
+import com.trembit.as3commands.event.SequenceCommandEvent;
+import com.trembit.as3commands.event.FinishCommandEvent;
+import com.trembit.as3commands.util.Commands;
 
 public class SequenceCommand extends Command{
 

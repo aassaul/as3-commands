@@ -4,11 +4,11 @@
  * Date: 15.07.2015
  * Time: 0:13
  */
-package com.trembit.messages.commands {
-import com.trembit.messages.constants.EventState;
-import com.trembit.messages.event.CommandEvent;
-import com.trembit.messages.event.FinishCommandEvent;
-import com.trembit.messages.util.Commands;
+package com.trembit.as3commands.commands {
+import com.trembit.as3commands.constants.EventState;
+import com.trembit.as3commands.event.CommandEvent;
+import com.trembit.as3commands.event.FinishCommandEvent;
+import com.trembit.as3commands.util.Commands;
 
 public class ParallelCommand extends Command {
 

@@ -5,6 +5,7 @@
  * Time: 1:25
  */
 package com.trembit.messages.commands.support {
+import com.trembit.as3commands.commands.Command;
 import com.trembit.messages.commands.*;
 
 public class FaultCommand extends Command{

@@ -4,7 +4,7 @@
  * Date: 15.07.2015
  * Time: 0:31
  */
-package com.trembit.messages.constants {
+package com.trembit.as3commands.constants {
 public final class EventState {
 
 	public static const RUNNING:String = "RUNNING";

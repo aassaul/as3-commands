@@ -4,8 +4,8 @@
  * Date: 14.07.2015
  * Time: 22:10
  */
-package com.trembit.messages.event {
-import com.trembit.messages.commands.SequenceCommand;
+package com.trembit.as3commands.event {
+import com.trembit.as3commands.commands.SequenceCommand;
 
 import flash.events.Event;
 

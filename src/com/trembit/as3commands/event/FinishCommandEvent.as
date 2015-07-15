@@ -4,9 +4,9 @@
  * Date: 14.07.2015
  * Time: 22:44
  */
-package com.trembit.messages.event {
-import com.trembit.messages.commands.Command;
-import com.trembit.messages.commands.FinishCommand;
+package com.trembit.as3commands.event {
+import com.trembit.as3commands.commands.Command;
+import com.trembit.as3commands.commands.FinishCommand;
 
 import flash.events.Event;
 

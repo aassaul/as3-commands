@@ -11,10 +11,10 @@ import com.trembit.messages.commands.support.AssertFalseCommand;
 import com.trembit.messages.commands.support.FaultCommand;
 import com.trembit.messages.commands.support.NotSingleCompleteCommand;
 import com.trembit.messages.commands.support.NotSingleFaultCommand;
-import com.trembit.messages.event.CommandEvent;
-import com.trembit.messages.event.ParallelCommandEvent;
-import com.trembit.messages.event.SequenceCommandEvent;
-import com.trembit.messages.util.Commands;
+import com.trembit.as3commands.event.CommandEvent;
+import com.trembit.as3commands.event.ParallelCommandEvent;
+import com.trembit.as3commands.event.SequenceCommandEvent;
+import com.trembit.as3commands.util.Commands;
 
 import flexunit.framework.Assert;
 

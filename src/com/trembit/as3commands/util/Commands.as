@@ -4,9 +4,9 @@
  * Date: 14.07.2015
  * Time: 19:46
  */
-package com.trembit.messages.util {
-import com.trembit.messages.commands.Command;
-import com.trembit.messages.event.CommandEvent;
+package com.trembit.as3commands.util {
+import com.trembit.as3commands.commands.Command;
+import com.trembit.as3commands.event.CommandEvent;
 
 import flash.utils.Dictionary;
 
