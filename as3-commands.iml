@@ -11,7 +11,9 @@
           </entries>
           <sdk name="4.14.0.air-17.0" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <option name="additionalConfigFilePath" value="$MODULE_DIR$/as3-commands-config.xml" />
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
