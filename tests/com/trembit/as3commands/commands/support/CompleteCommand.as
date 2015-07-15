@@ -2,16 +2,15 @@
  * Created with IntelliJ IDEA.
  * User: Andrey Assaul
  * Date: 15.07.2015
- * Time: 1:25
+ * Time: 1:27
  */
-package com.trembit.messages.commands.support {
+package com.trembit.as3commands.commands.support {
 import com.trembit.as3commands.commands.Command;
-import com.trembit.messages.commands.*;
 
-public class FaultCommand extends Command{
+public class CompleteCommand extends Command {
 
 	override protected function execute():void {
-		onFault();
+		onComplete();
 	}
 }
 }

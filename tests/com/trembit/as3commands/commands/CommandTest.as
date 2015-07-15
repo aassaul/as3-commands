@@ -4,13 +4,13 @@
  * Date: 15.07.2015
  * Time: 1:23
  */
-package com.trembit.messages.commands {
-import com.trembit.messages.commands.support.AssertTrueCommand;
-import com.trembit.messages.commands.support.CompleteCommand;
-import com.trembit.messages.commands.support.AssertFalseCommand;
-import com.trembit.messages.commands.support.FaultCommand;
-import com.trembit.messages.commands.support.NotSingleCompleteCommand;
-import com.trembit.messages.commands.support.NotSingleFaultCommand;
+package com.trembit.as3commands.commands {
+import com.trembit.as3commands.commands.support.AssertTrueCommand;
+import com.trembit.as3commands.commands.support.CompleteCommand;
+import com.trembit.as3commands.commands.support.AssertFalseCommand;
+import com.trembit.as3commands.commands.support.FaultCommand;
+import com.trembit.as3commands.commands.support.NotSingleCompleteCommand;
+import com.trembit.as3commands.commands.support.NotSingleFaultCommand;
 import com.trembit.as3commands.event.CommandEvent;
 import com.trembit.as3commands.event.ParallelCommandEvent;
 import com.trembit.as3commands.event.SequenceCommandEvent;
