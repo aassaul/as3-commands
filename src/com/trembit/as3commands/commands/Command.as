@@ -66,12 +66,10 @@ public class Command {
 	protected function execute():void{}
 
 	protected function preComplete(data:*):Boolean{
-		trace("On Complete Command", event.type, "with data", data);
 		return true;
 	}
 
 	protected function preFault(data:*):Boolean{
-		trace("On Fault Command", event.type, "with data", data);
 		return true;
 	}
 
