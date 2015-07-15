@@ -6,8 +6,8 @@
  */
 package com.trembit.as3commands.commands {
 import com.trembit.as3commands.constants.EventState;
-import com.trembit.as3commands.event.CommandEvent;
-import com.trembit.as3commands.event.FinishCommandEvent;
+import com.trembit.as3commands.events.CommandEvent;
+import com.trembit.as3commands.events.FinishCommandEvent;
 import com.trembit.as3commands.util.Commands;
 
 public class ParallelCommand extends Command {

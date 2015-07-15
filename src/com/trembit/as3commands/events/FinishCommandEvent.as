@@ -4,7 +4,7 @@
  * Date: 14.07.2015
  * Time: 22:44
  */
-package com.trembit.as3commands.event {
+package com.trembit.as3commands.events {
 import com.trembit.as3commands.commands.Command;
 import com.trembit.as3commands.commands.FinishCommand;
 

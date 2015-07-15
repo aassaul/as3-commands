@@ -11,9 +11,9 @@ import com.trembit.as3commands.commands.support.AssertFalseCommand;
 import com.trembit.as3commands.commands.support.FaultCommand;
 import com.trembit.as3commands.commands.support.NotSingleCompleteCommand;
 import com.trembit.as3commands.commands.support.NotSingleFaultCommand;
-import com.trembit.as3commands.event.CommandEvent;
-import com.trembit.as3commands.event.ParallelCommandEvent;
-import com.trembit.as3commands.event.SequenceCommandEvent;
+import com.trembit.as3commands.events.CommandEvent;
+import com.trembit.as3commands.events.ParallelCommandEvent;
+import com.trembit.as3commands.events.SequenceCommandEvent;
 import com.trembit.as3commands.util.Commands;
 
 import flexunit.framework.Assert;

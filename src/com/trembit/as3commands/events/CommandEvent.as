@@ -4,7 +4,7 @@
  * Date: 14.07.2015
  * Time: 19:50
  */
-package com.trembit.as3commands.event {
+package com.trembit.as3commands.events {
 
 import avmplus.getQualifiedClassName;
 

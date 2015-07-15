@@ -6,7 +6,7 @@
  */
 package com.trembit.as3commands.util {
 import com.trembit.as3commands.commands.Command;
-import com.trembit.as3commands.event.CommandEvent;
+import com.trembit.as3commands.events.CommandEvent;
 
 import flash.utils.Dictionary;
 

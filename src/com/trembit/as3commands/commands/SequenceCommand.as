@@ -5,9 +5,9 @@
  * Time: 21:11
  */
 package com.trembit.as3commands.commands {
-import com.trembit.as3commands.event.CommandEvent;
-import com.trembit.as3commands.event.SequenceCommandEvent;
-import com.trembit.as3commands.event.FinishCommandEvent;
+import com.trembit.as3commands.events.CommandEvent;
+import com.trembit.as3commands.events.SequenceCommandEvent;
+import com.trembit.as3commands.events.FinishCommandEvent;
 import com.trembit.as3commands.util.Commands;
 
 public class SequenceCommand extends Command{
