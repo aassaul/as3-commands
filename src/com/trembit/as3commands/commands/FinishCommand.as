@@ -5,7 +5,6 @@
  * Time: 22:39
  */
 package com.trembit.as3commands.commands {
-import com.trembit.messages.commands.*;
 import com.trembit.as3commands.event.FinishCommandEvent;
 
 public class FinishCommand extends Command {
