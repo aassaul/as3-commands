@@ -5,7 +5,7 @@
       <configuration name="as3-commands" output-type="Library" output-file="as3-commands.swc" output-folder="$MODULE_DIR$/out/production/as3-commands/out">
         <dependencies target-player="17.0">
           <entries>
-            <entry library-name="flexunit-4.2.0-20140410-flex_4.12.0" library-level="application">
+            <entry library-name="flexunit" library-level="application">
               <dependency linkage="Test" />
             </entry>
           </entries>
@@ -30,5 +30,6 @@
     <orderEntry type="jdk" jdkName="4.14.0.air-17.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="flexunit-4.2.0-20140410-flex_4.12.0" level="application" />
+    <orderEntry type="library" exported="" name="flexunit" level="application" />
   </component>
 </module>

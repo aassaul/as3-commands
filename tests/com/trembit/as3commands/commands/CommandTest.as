@@ -8,6 +8,7 @@ package com.trembit.as3commands.commands {
 import com.trembit.as3commands.commands.support.AssertTrueCommand;
 import com.trembit.as3commands.commands.support.CompleteCommand;
 import com.trembit.as3commands.commands.support.AssertFalseCommand;
+import com.trembit.as3commands.commands.support.CompleteWithDataCommand;
 import com.trembit.as3commands.commands.support.FaultCommand;
 import com.trembit.as3commands.commands.support.NotSingleCompleteCommand;
 import com.trembit.as3commands.commands.support.NotSingleFaultCommand;
@@ -84,6 +85,21 @@ public class CommandTest {
 			isError = true;
 		}
 		Assert.assertTrue(isError);
+	}
+
+	[Test]
+	public function testDataFlow():void{
+		var event:CommandEvent = new CommandEvent(CompleteCommand, null, new CommandEvent(CompleteCommand, "TEST_DATA"));
+		Commands.run(event);
+		Assert.assertEquals(event.completeEvent.data, "TEST_DATA");
+
+		event = new CommandEvent(CompleteWithDataCommand, null, new CommandEvent(CompleteCommand, "TEST_DATA"));
+		Commands.run(event);
+		Assert.assertEquals(event.completeEvent.data, null);
+
+		event = new CommandEvent(CompleteWithDataCommand, undefined, new CommandEvent(CompleteCommand, "TEST_DATA"));
+		Commands.run(event);
+		Assert.assertEquals(event.completeEvent.data, "TEST_DATA");
 	}
 }
 }

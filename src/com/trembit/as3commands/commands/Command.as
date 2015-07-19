@@ -11,6 +11,15 @@ import com.trembit.as3commands.util.Commands;
 
 public class Command {
 
+	private static function runEventWithData(event:CommandEvent, data:*):void{
+		if(event){
+			if(data !== undefined){
+				event.data = data;
+			}
+			Commands.run(event);
+		}
+	}
+
 	private var _event:CommandEvent;
 	private var _isRunning:Boolean;
 
@@ -35,7 +44,7 @@ public class Command {
 		}
 	}
 
-	public final function onComplete(data:* = null):void{
+	public final function onComplete(data:* = undefined):void{
 		if(!preComplete(data)){
 			return;
 		}
@@ -43,13 +52,10 @@ public class Command {
 		event.state = EventState.COMPLETE;
 		data = prepareCompleteData(data);
 		clearData();
-		if(event.completeEvent){
-			event.completeEvent.data = data;
-			Commands.run(event.completeEvent);
-		}
+		runEventWithData(event.completeEvent, data);
 	}
 
-	public final function onFault(data:* = null):void{
+	public final function onFault(data:* = undefined):void{
 		if(!preFault(data)){
 			return;
 		}
@@ -57,10 +63,7 @@ public class Command {
 		event.state = EventState.FAULT;
 		data = prepareFaultData(data);
 		clearData();
-		if(event.faultEvent){
-			event.faultEvent.data = data;
-			Commands.run(event.faultEvent);
-		}
+		runEventWithData(event.faultEvent, data);
 	}
 
 	protected function execute():void{}
